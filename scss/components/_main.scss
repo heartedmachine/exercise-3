@@ -118,4 +118,15 @@ header {
     position: static;
     right: auto;
   }
+  li{
+    display: inline-block;
+  }
+  .navigation ul li a {
+    border: none;
+  }
+
+  .navigation ul li:first-child a {
+    border: none;
+  }
+
 }

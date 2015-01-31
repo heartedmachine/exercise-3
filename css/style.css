@@ -180,4 +180,16 @@ header {
   .slide-menu {
     position: static;
     right: auto; }
+
+  /* line 121, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  li {
+    display: inline-block; }
+
+  /* line 124, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  .navigation ul li a {
+    border: none; }
+
+  /* line 128, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  .navigation ul li:first-child a {
+    border: none; }
  }
