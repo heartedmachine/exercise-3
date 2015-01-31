@@ -21,7 +21,7 @@ html {
 body{
   font-family: sans-serif;
   @include zero;
-  background-image: url("../../images/bright_squares.png");
+  background-color: #fd7c00;
   // Hides close button if there is no js
   &.noscript .close-btn,
   &.noscript .toggle-btn{
@@ -39,6 +39,11 @@ header {
   padding: 1em 1em;
   position: relative;
   background-color: rgba(25, 196, 204, .3);
+}
+
+.resize {
+  width: 30%;
+  float: left;
 }
 
 .toggle-btn {
