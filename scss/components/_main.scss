@@ -21,6 +21,7 @@ html {
 body{
   font-family: sans-serif;
   @include zero;
+  background-image: url("../../images/bright_squares.png");
   // Hides close button if there is no js
   &.noscript .close-btn,
   &.noscript .toggle-btn{
@@ -58,6 +59,12 @@ header {
       border-top: 1px solid $light-grey;
     }
   }
+}
+
+a,
+a:link,
+a:visited  {
+  color: #fff;
 }
 
 .toggle-btn,

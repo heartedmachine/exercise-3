@@ -85,55 +85,60 @@ html {
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 0; }
-  /* line 26, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  padding: 0;
+  background-image: url("../../images/bright_squares.png"); }
+  /* line 27, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
-/* line 31, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+/* line 32, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
 h1 {
   display: inline; }
 
-/* line 35, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+/* line 36, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
 header {
   padding: 1em 1em;
   position: relative; }
 
-/* line 40, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+/* line 41, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
 .toggle-btn {
   position: absolute;
   right: 1em;
   top: 0; }
 
-/* line 46, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+/* line 47, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 48, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 49, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 50, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+    /* line 51, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
       text-align: center;
       border-bottom: 1px solid #ccc;
       text-decoration: none; }
-    /* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+    /* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
     .navigation ul li:first-child a {
       border-top: 1px solid #ccc; }
 
-/* line 64, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+/* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+a, a:link, a:visited {
+  color: #fff; }
+
+/* line 71, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
   color: #222;
   height: 40px;
   width: 40px;
   padding-top: 1em; }
-  /* line 69, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 76, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
     border: 1px solid #ccc;
     padding: 0.5em; }
-  /* line 73, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
@@ -141,13 +146,13 @@ header {
     display: block; }
 
 @media only screen and (max-width: 60em) {
-  /* line 82, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100; }
-    /* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+    /* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -156,16 +161,16 @@ header {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 95, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+    /* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
     .site-wrapper[data-state='slide-open'] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 99, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+    /* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
     .site-wrapper[data-state='slide-open'] {
       overflow: visible; }
 
-  /* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 112, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -178,29 +183,29 @@ header {
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 120, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 127, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
 
-  /* line 123, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 130, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .slide-menu {
     position: static;
     right: auto;
     float: right; }
 
-  /* line 128, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 135, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   li {
     display: inline-block; }
 
-  /* line 131, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 138, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .navigation ul li a {
     border: none; }
 
-  /* line 135, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 142, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .navigation ul li:first-child a {
     border: none; }
 
-  /* line 139, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 146, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   header {
     padding: 1em 1em 0 1em; }
  }
