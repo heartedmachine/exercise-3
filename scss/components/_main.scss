@@ -28,6 +28,10 @@ body{
   }
 }
 
+h1 {
+  display: inline;
+}
+
 header {
   padding: 0 1em;
   position: relative;
@@ -117,6 +121,7 @@ header {
   .slide-menu {
     position: static;
     right: auto;
+    float: right;
   }
   li{
     display: inline-block;
@@ -127,6 +132,10 @@ header {
 
   .navigation ul li:first-child a {
     border: none;
+  }
+
+  header {
+    padding: none;
   }
 
 }
