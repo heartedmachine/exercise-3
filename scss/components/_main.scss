@@ -38,13 +38,17 @@ h1 {
 header {
   padding: 1em 1em;
   position: relative;
-  background-color: rgba(25, 196, 204, .3)
+  background-color: rgba(25, 196, 204, .3);
 }
 
 .toggle-btn {
   position: absolute;
   right: 1em;
   top: 0;
+}
+
+.navigation {
+  background-color: rgba(25, 196, 204, .3);
 }
 
 .navigation ul {
