@@ -47,10 +47,6 @@ header {
   top: 0;
 }
 
-.navigation {
-  background-color: rgba(25, 196, 204, .3);
-}
-
 .navigation ul {
   @include zero;
   li {
@@ -72,6 +68,12 @@ a,
 a:link,
 a:visited  {
   color: #fff;
+}
+
+a:hover,
+a:focus,
+a:active {
+  background-color: rgba(25, 196, 204, 1);
 }
 
 .toggle-btn,
