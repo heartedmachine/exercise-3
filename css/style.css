@@ -235,15 +235,16 @@ a:hover, a:focus, a:active {
 
   /* line 176, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   header {
-    padding: 1em; }
+    padding: 1em;
+    border-bottom: 1px solid #ccc; }
 
-  /* line 179, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 180, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .resize {
     max-width: 30%;
     margin: 1em;
     float: left; }
 
-  /* line 185, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
+  /* line 186, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 4/exercise-3/scss/components/main */
   .quote-lines {
     text-align: left;
     padding-top: 2em; }
