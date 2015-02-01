@@ -37,6 +37,7 @@ h1 {
 header {
   padding: 1em 1em;
   position: relative;
+  background-color: $text-color;
 }
 
 .resize {
@@ -47,7 +48,7 @@ header {
 
 .quote-lines {
   text-align: center;
-  color: #fff;
+  color: $text-color;
   font-weight: 100;
 }
 
