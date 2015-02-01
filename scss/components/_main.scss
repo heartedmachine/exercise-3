@@ -30,7 +30,7 @@ body{
 
 h1 {
   display: inline;
-  color: #fff;
+  color: $text-color;
   font-weight: $thin-weight;
 }
 
@@ -50,6 +50,7 @@ header {
   text-align: center;
   color: $text-color;
   font-weight: 100;
+  padding: 5px;
 }
 
 .quote {
@@ -83,7 +84,7 @@ header {
 a,
 a:link,
 a:visited  {
-  color: $hover-color;
+  color: $text-color;
 }
 
 a:hover,
