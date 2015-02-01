@@ -112,6 +112,10 @@ a:active {
   padding-left: 1em;
 }
 
+cite {
+  color: $light-grey;
+}
+
 // Sliding Navigation
 @media only screen and (max-width: 60em){
 //Page should move when nav opens
