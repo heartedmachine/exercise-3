@@ -42,8 +42,9 @@ header {
 }
 
 .resize {
-  width: 30%;
-  float: left;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .toggle-btn {
@@ -163,6 +164,9 @@ a:active {
 
   header {
     padding: 1em;
+  }
+  .resize {
+    float: left;
   }
 
 }
