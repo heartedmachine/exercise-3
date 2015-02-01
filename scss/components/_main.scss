@@ -42,6 +42,7 @@ header {
 
 .resize {
   width: 50%;
+  padding-top: 2em;
   display: block;
   margin: 0 auto;
 }
@@ -180,5 +181,9 @@ a:active {
     margin: 1em;
     float: left;
   }
+
+  .quote-lines {
+  text-align: left;
+}
 
 }
