@@ -37,7 +37,6 @@ h1 {
 header {
   padding: 1em 1em;
   position: relative;
-  background-color: $text-color;
 }
 
 .resize {
@@ -84,7 +83,7 @@ header {
 a,
 a:link,
 a:visited  {
-  color: #fff;
+  color: $hover-color;
 }
 
 a:hover,
