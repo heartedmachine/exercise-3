@@ -38,13 +38,22 @@ h1 {
 header {
   padding: 1em 1em;
   position: relative;
-  background-color: rgba(25, 196, 204, .3);
 }
 
 .resize {
   width: 50%;
   display: block;
   margin: 0 auto;
+}
+
+.quote-lines {
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+}
+
+.quote {
+  padding: 0;
 }
 
 .toggle-btn {
@@ -167,6 +176,7 @@ a:active {
   }
   .resize {
     max-width: 30%;
+    margin: 1em;
     float: left;
   }
 
